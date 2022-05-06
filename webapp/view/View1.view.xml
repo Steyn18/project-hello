@@ -1,0 +1,25 @@
+<mvc:View
+    controllerName="sap.com.project2.controller.View1"
+    xmlns="sap.m"  
+    xmlns:GenericTile="sap.m.GenericTile"
+    xmlns:viz="sap.viz.ui5.controls"
+    xmlns:vizframe="sap.viz.ui5.controls.VizFrame" xmlns:layout="sap.ui.layout"
+    xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+    
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:viz.data="sap.viz.ui5.data"
+     height="100%"   displayBlock="true"
+    
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content />
+                    <Text id="text" text="Hello World!" />
+                    
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
